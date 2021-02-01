@@ -33,20 +33,29 @@ sudo apt-get install python-serial
 Terminalden spidev klasörüne girin:
 sudo python setup.py install
 sudo apt-get install python-imaging
-
+----------------------------------------------
 -Simdi ayarlardan portlari acacagiz.
+
 sudo raspi-config
+
 '5 Interfacing Options' Secin
+
 'P4 SPI' Secin
-'Yes' deyin
-'P5 I2C' Secin
+
 'Yes' deyin
 
+'P5 I2C' Secin
+
+'Yes' deyin
+-------------------------
 Terminali kapatin ve tekrar acin.
 
 sudo apt-get install python-pip libfreetype6-dev libjpeg-dev
+
 sudo -H pip install --upgrade pip
+
 sudo apt-get purge python-pip
+
 sudo -H pip install --upgrade luma.oled
 
 Bu kadardi. Simdi yapmaniz gereken benim github'dan indirdiklerinizi bir klasör icerisine atin ve kodlari denemeye baslayin. (config.py , SH1106.py sürücü dosyalaridir onlari kullanmayin ancak her klasörde bulunmasi gerekiyor.)
