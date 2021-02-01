@@ -33,7 +33,9 @@ sudo apt-get install python-serial
 Terminalden spidev klasörüne girin:
 sudo python setup.py install
 sudo apt-get install python-imaging
+
 ----------------------------------------------
+
 -Simdi ayarlardan portlari acacagiz.
 
 sudo raspi-config
@@ -47,7 +49,9 @@ sudo raspi-config
 'P5 I2C' Secin
 
 'Yes' deyin
+
 -------------------------
+
 Terminali kapatin ve tekrar acin.
 
 sudo apt-get install python-pip libfreetype6-dev libjpeg-dev
