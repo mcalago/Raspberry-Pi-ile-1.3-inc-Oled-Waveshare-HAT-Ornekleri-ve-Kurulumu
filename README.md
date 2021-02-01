@@ -17,21 +17,27 @@ Asagidaki kodlari @pangduckwai github kullanicisinin yazilarindan ekliyorum. Sat
 ( Örnegin sudo python setup.py install olan kodu sudo python3 setup.py install seklinde de yazdim ki garanti olsun cünkü biz python3 kullaniyor olacagiz.)
 
 sudo apt-get update
+
 sudo apt-get install python-dev
 
--Tarayiciyi acip RPi.GPIO yu https://pypi.python.org/pypi/RPi.GPIO adresinden indirin
-Icindekileri klasöre cikartin
+-Tarayiciyi acip RPi.GPIO yu https://pypi.python.org/pypi/RPi.GPIO adresinden indirin ve Icindekileri klasöre cikartin
+
 Klasörün icine Terminalden girin:
+
 sudo python setup.py install
+
 sudo python3 setup.py install
 
--Tekrar tarayiciyi acip https://pypi.python.org/pypi/spidev adresinden indirin
-icini klasöre cikartin.
+-Tekrar tarayiciyi acip https://pypi.python.org/pypi/spidev adresinden Spidev indirin ve icini klasöre cikartin.
+
 sudo apt-get install python-smbus
+
 sudo apt-get install python-serial
 
 Terminalden spidev klasörüne girin:
+
 sudo python setup.py install
+
 sudo apt-get install python-imaging
 
 ----------------------------------------------
